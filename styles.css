@@ -1,7 +1,8 @@
 /* Global styles */
 * {
     font-family: Roboto;
-    color: hsl(234, 29%, 20%)
+    color: hsl(234, 29%, 20%);
+    margin: 0;
 }
 
 h1, h4 {
@@ -26,7 +27,60 @@ input {
     font-size: 16px;
 }
 
-/* Bullets */
+/* Signup screen */
+.sign-up-image-mobile img {
+    width: 100vw;
+}
+
+.stay-updated-body {
+    margin: 20px;
+}
+
+.stay-updated-body h1 {
+    padding-bottom: 20px;
+}
+
 ul {
     list-style-image: url(./assets/images/icon-list.svg);
+    margin: 10px;
+}
+
+li {
+    padding-left: 10px;
+}
+
+.form-title {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/* .form input {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.form button {
+    width: 80%;
+    padding: 15px;
+} */
+
+.form input,
+.form button {
+    width: 90vw;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }

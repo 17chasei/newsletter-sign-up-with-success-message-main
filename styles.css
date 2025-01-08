@@ -1,0 +1,32 @@
+/* Global styles */
+* {
+    font-family: Roboto;
+    color: hsl(234, 29%, 20%)
+}
+
+h1, h4 {
+    font-weight: 700;
+}
+
+span, ul {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button {
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+input {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+/* Bullets */
+ul {
+    list-style-image: url(./assets/images/icon-list.svg);
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+
+<body>
+
+  <div class="sign-up-container"> <!-- .sign-up-container start -->
+
+    <div class="sign-up-screen"> <!-- .sign-up-screen start -->
+
+      <div class="sign-up-illustration-mobile">
+        <img src=".//assets/images/illustration-sign-up-mobile.svg" alt="mobile sign up illustration">
+      </div>
+
+      <div class="stay-updated-body">
+        <h1>Stay updated!</h1>
+        <span>Join 60,000+ product managers receiving monthly updates on:</span>
+      </div>
+
+      <div class="stay-updated-bullets">
+        <ul>
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
+        </ul>
+      </div>
+
+      <div class="form-title">
+        <h4>Email address</h4>
+      </div>
+
+      <div class="form"> <!-- Confused about this part; this form is tentative, 1/8/25 -->
+        <form action="script.js" method="post">
+          <input type="email" id="email" name="email" placeholder="email@company.com" required>
+        </form>
+        <button type="submit">Subscribe to monthly newsletter</button>
+      </div>
+
+    </div> <!-- .sign-up-screen end -->
+
+    <div class="sign-up-success-screen"> <!-- .sign-up-success-screen start -->
+
+      <div class="thanks-image">
+        <img src=".//assets/images/icon-success.svg" alt="success icon">
+      </div>
+      
+      <div class="thanks-body">
+        <h1>Thanks for subscribing!</h1>
+        <span>A confirmation email has been sent to <span class="placeholder-email">ash@loremcompany.com</span><!-- NOTE: just a placeholder for an email that the user inputs -->. Please open it and click the button inside to confirm your subscription.</span>
+      </div>
+
+      <div class="dismiss-message-button">
+        <button type="button">Dismiss message</button>
+      </div>
+
+    </div> <!-- .sign-up-success-screen end -->
+
+  </div> <!-- .sign-up-container end -->
+  
+</body>
+
+</html>
